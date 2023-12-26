@@ -1,0 +1,17 @@
+[package]
+name = "services"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+models = { path = "../models" }
+# rbatis deps
+rbs = { version = "4.5"}
+rbatis = { version = "4.5"}
+rbdc-mysql={version="4.5"}
+
+tracing = "0.1.40"
+
+redis = "0.24.0"
